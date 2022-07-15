@@ -54,3 +54,24 @@ background: linear-gradient(310deg, rgba(24,184,113,1) 0%, rgba(9,121,120,1) 51%
 font-size: 30px;
 border-radius: 50px;
 }
+
+/* destacados */
+
+.parte3 {
+    background-color: #292B2B;
+    color: white;
+    align-content: center;
+    display:inline-block;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.card {
+    background-color: #097978;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.card img {
+    height: 10rem;
+}
