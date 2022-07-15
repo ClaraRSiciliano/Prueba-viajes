@@ -4,3 +4,53 @@
      
 }
 
+.navbar {
+    border-radius: 30px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    height: 55px;
+}
+
+
+  @media screen and (max-width: 1000px) {
+    div.collapse {
+      background-color:rgba(0, 0, 0, .9) ;
+      border-radius: 5px;
+    }
+  }
+/* Estilos parrafos */
+.parte2 {
+    background-color: #292B2B;
+    color: white;
+    align-content: center;
+    display:inline-block;
+    padding-top: 2rem;
+   
+}
+
+.parte2 p {
+    width: 80%;
+    text-align: justify;
+    font-size: 16px;
+    margin-left: 1.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+}
+
+@supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
+	#textos-3 {
+		text-align: justify;
+		-webkit-hyphens: auto; /* A día de hoy aún es necesario el prefijo para soportar a Safari */
+		hyphens: auto;
+	}
+}
+
+.parte2 i {
+    padding: 1.5rem;
+    background: rgb(24,184,113);
+background: linear-gradient(310deg, rgba(24,184,113,1) 0%, rgba(9,121,120,1) 51%, rgba(0,212,255,1) 100%);
+font-size: 30px;
+border-radius: 50px;
+}
