@@ -98,5 +98,10 @@ border-radius: 50px;
 .pie {
     background-color: #097978;
     color: white;
+    text-decoration: none;
 }
 
+.pie a {
+    text-decoration: none;
+    color: white;
+}
