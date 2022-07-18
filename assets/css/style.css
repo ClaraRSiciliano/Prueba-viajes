@@ -1,13 +1,15 @@
 
-/* Estilo general de fuente*/
+/* Estilo general del html*/
 * {
    font-family: 'Lato', sans-serif;
-     
+     scroll-behavior: smooth;
 }
+
 
 
 /* Estilos del navbar */
 .navbar {
+   
     border-radius: 30px;
     margin-top: 0.5rem;
     margin-left: 0.5rem;

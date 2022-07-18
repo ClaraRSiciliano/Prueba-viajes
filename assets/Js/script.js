@@ -1,10 +1,10 @@
 // Al hacer doble click en los titulos de de las secciones "Quienes somos" y "Destacados" , cambian de color
-$('#quienes').on('dblclick',function(){
-    $('#quienes').css({'color':'aquamarine'});
+$('#qs').on('dblclick',function(){
+    $('#qs').css({'color':'aquamarine'});
 });
 
-$('#destacados').on('dblclick',function(){
-    $('#destacados').css({'color':'aquamarine'});
+$('#dstcds').on('dblclick',function(){
+    $('#dstcds').css({'color':'aquamarine'});
 });
 
 
@@ -21,4 +21,5 @@ var botonmensaje = $('#enviarmensaje');
 botonmensaje.on('click', function(){
     alert("¡Tu mensaje fue enviado exitosamente!");
 });
+
 
