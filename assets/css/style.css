@@ -1,9 +1,12 @@
 
+/* Estilo general de fuente*/
 * {
    font-family: 'Lato', sans-serif;
      
 }
 
+
+/* Estilos del navbar */
 .navbar {
     border-radius: 30px;
     margin-top: 0.5rem;
@@ -19,7 +22,9 @@
       border-radius: 5px;
     }
   }
-/* Estilos parrafos */
+
+
+/* Estilos parrafos Seccion Quienes somos*/
 .parte2 {
     background-color: #292B2B;
     color: white;
@@ -42,7 +47,7 @@
 @supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
 	#textos-3 {
 		text-align: justify;
-		-webkit-hyphens: auto; /* A día de hoy aún es necesario el prefijo para soportar a Safari */
+		-webkit-hyphens: auto; 
 		hyphens: auto;
 	}
 }
@@ -55,7 +60,7 @@ font-size: 30px;
 border-radius: 50px;
 }
 
-/* destacados */
+/* Estilos cards sección Destacados */
 
 .parte3 {
     background-color: #292B2B;
@@ -76,7 +81,7 @@ border-radius: 50px;
     height: 10rem;
 }
 
-/* suscripcion */
+/* Estilos sección extra suscripcion */
 
 .newsletter {
     background: rgb(24,184,113);
@@ -84,7 +89,7 @@ border-radius: 50px;
     padding-bottom: 2rem;
 }
 
-/* contacto */
+/* Estilos seccion Contacto */
 .contacto {
     background-color: #292B2B;
     color: white;
@@ -93,7 +98,7 @@ border-radius: 50px;
     
 }
 
-/* footer */
+/* Estilos footer */
 
 .pie {
     background-color: #097978;
@@ -105,3 +110,14 @@ border-radius: 50px;
     text-decoration: none;
     color: white;
 }
+
+
+/* Arreglo de barra lateral en el index */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+
+  
